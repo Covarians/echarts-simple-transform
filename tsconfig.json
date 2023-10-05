@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "target": "ES3",
-
+        "ignoreDeprecations": "5.0", // Add this line to silence the warning
         "noImplicitAny": true,
         "noImplicitThis": true,
         "strictBindCallApply": true,

@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "typescript",
+			"tsconfig": "../../../../D:/_DRIVE/G-Git/echarts-simple-transform/tsconfig.json",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "tsc: build - ../../../../D:/_DRIVE/G-Git/echarts-simple-transform/tsconfig.json"
+		}
+	]
+}

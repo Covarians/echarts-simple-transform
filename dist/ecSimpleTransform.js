@@ -354,7 +354,7 @@
     }
 
     var transform$2 = {
-        type: 'aexviewTransform:map',
+        type: 'ecSimpleTransform:map',
         transform: function (params) {
             var upstream = params.upstream;
             var config = params.config;

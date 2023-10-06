@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.transform = void 0;
 // Echart transform to apply a map function to  a dimension
 exports.transform = {
-    type: 'aexviewTransform:map',
+    type: 'ecSimpleTransform:map',
     transform: function (params) {
         var upstream = params.upstream;
         var config = params.config;

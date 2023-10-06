@@ -23,7 +23,7 @@ export interface MapTransformOption extends DataTransformOption {
 // Echart transform to apply a map function to  a dimension
 export const transform: ExternalDataTransform<MapTransformOption> = {
 
-    type: 'aexviewTransform:map',
+    type: 'ecSimpleTransform:map',
 
     transform: function (params) {
         const upstream = params.upstream;

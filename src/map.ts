@@ -4,7 +4,7 @@ import {
 } from './types';
 
 export interface MapTransformOption extends DataTransformOption {
-    type: 'aexviewTransform:map';
+    type: 'ecSimpleTransform:map';
     config: {
         // Mandatory
         resultDimensions: {

@@ -1,5 +1,5 @@
 import {
-    DataTransformOption, DimensionLoose, DimensionName, ExternalDataTransform,
+    DataTransformOption, DimensionLoose, DimensionName, DimensionIndex, ExternalDataTransform,
     ExternalDimensionDefinition, ExternalSource, OptionDataValue, OptionSourceDataArrayRows
 } from './types';
 
@@ -12,7 +12,7 @@ export interface MapTransformOption extends DataTransformOption {
             // If not provided, inherit the name from `from`.
             name: DimensionName;
             // Mandatory. `from` is used to reference dimension from `source`.
-            from: DimensionLoose;
+            from: DimensionIndex;
             // Optional. Map function to apply to the dimension.
             method: Function;
         }[];
